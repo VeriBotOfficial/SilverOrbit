@@ -3,21 +3,55 @@
   "creator": "VeriBot",
   "apps": [
     {
-      "id": "example-game",
-      "name": "Example Game",
-      "shortDescription": "A simple sample game.",
-      "description": "This is a sample game entry used as a template for the SilverOrbit App Store.",
-      "version": "1.0",
+      "id": "circlecycle",
+      "name": "Circle Cycle",
+      "shortDescription": "Stack the circles.",
+      "description": "Simple but Hard circle stacking game.",
+      "version": "1.1",
+      "author": "Emir'in Abisi",
+      "category": "arcade",
+      "featured": true,
+      "icon": "https://raw.githubusercontent.com/VeriBotOfficial/SilverOrbit/main/games/circlecycle/icon.png",
+      "banner": "https://raw.githubusercontent.com/VeriBotOfficial/SilverOrbit/main/games/circlecycle/banner.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/VeriBotOfficial/SilverOrbit/main/games/circlecycle/screenshots/1.png",
+        "https://raw.githubusercontent.com/VeriBotOfficial/SilverOrbit/main/games/circlecycle/screenshots/2.png"
+      ],
+      "apk": "https://raw.githubusercontent.com/VeriBotOfficial/SilverOrbit/main/games/circlecycle/builds/circle_cycle.apk"
+    },
+    {
+      "id": "studa",
+      "name": "Studa",
+      "shortDescription": "Study & Task Manageement helper.",
+      "description": "Study & Task Management helper with features like Pomodoro Timer, To-Do List, and more.",
+      "version": "1.14",
       "author": "VeriBot",
       "category": "arcade",
       "featured": true,
-      "icon": "games/example-game/icon.png",
-      "banner": "games/example-game/banner.png",
+      "icon": "https://raw.githubusercontent.com/VeriBotOfficial/SilverOrbit/main/games/studa/icon.png",
+      "banner": "https://raw.githubusercontent.com/VeriBotOfficial/SilverOrbit/main/games/studa/banner.png",
       "screenshots": [
-        "games/example-game/screenshots/1.png",
-        "games/example-game/screenshots/2.png"
+        "https://raw.githubusercontent.com/VeriBotOfficial/SilverOrbit/main/games/studa/screenshots/1.png",
+        "https://raw.githubusercontent.com/VeriBotOfficial/SilverOrbit/main/games/studa/screenshots/2.png"
       ],
-      "apk": "games/example-game/builds/example-game-v1.0.apk"
+      "apk": "https://raw.githubusercontent.com/VeriBotOfficial/SilverOrbit/main/games/studa/builds/studa.apk"
+    },
+    {
+      "id": "upgrado",
+      "name": "Upgrado",
+      "shortDescription": "CS2 gambling simulator.",
+      "description": "CS2 gambling & case opening simulator with games like Upgrader, Merge etc.",
+      "version": "1.4",
+      "author": "VeriBot",
+      "category": "arcade",
+      "featured": true,
+      "icon": "https://raw.githubusercontent.com/VeriBotOfficial/SilverOrbit/main/games/upgrado/icon.png",
+      "banner": "https://raw.githubusercontent.com/VeriBotOfficial/SilverOrbit/main/games/upgrado/banner.png",
+      "screenshots": [
+        "https://raw.githubusercontent.com/VeriBotOfficial/SilverOrbit/main/games/upgrado/screenshots/1.png",
+        "https://raw.githubusercontent.com/VeriBotOfficial/SilverOrbit/main/games/upgrado/screenshots/2.png"
+      ],
+      "apk": "https://raw.githubusercontent.com/VeriBotOfficial/SilverOrbit/main/games/upgrado/builds/upgrado.apk"
     }
   ]
 }

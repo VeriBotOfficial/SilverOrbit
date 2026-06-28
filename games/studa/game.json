@@ -1,0 +1,17 @@
+{
+  "id": "studa",
+  "name": "Studa",
+  "shortDescription": "Study & Task Manageement helper.",
+  "description": "Study & Task Management helper with features like Pomodoro Timer, To-Do List, and more.",
+  "version": "1.14",
+  "author": "VeriBot",
+  "apk": "builds/studa.apk",
+  "icon": "icon.png",
+  "banner": "banner.png",
+  "screenshots": [
+    "screenshots/1.png",
+    "screenshots/2.png"
+  ],
+  "category": "arcade",
+  "featured": true
+}

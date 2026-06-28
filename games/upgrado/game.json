@@ -1,0 +1,17 @@
+{
+  "id": "upgrado",
+  "name": "Upgrado",
+  "shortDescription": "CS2 gambling simulator.",
+  "description": "CS2 gambling & case opening simulator with games like Upgrader, Merge etc.",
+  "version": "1.4",
+  "author": "VeriBot",
+  "apk": "builds/upgrado.apk",
+  "icon": "icon.png",
+  "banner": "banner.png",
+  "screenshots": [
+    "screenshots/1.png",
+    "screenshots/2.png"
+  ],
+  "category": "arcade",
+  "featured": true
+}
