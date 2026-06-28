@@ -1,0 +1,23 @@
+{
+  "storeName": "SilverOrbit App Store",
+  "creator": "VeriBot",
+  "apps": [
+    {
+      "id": "example-game",
+      "name": "Example Game",
+      "shortDescription": "A simple sample game.",
+      "description": "This is a sample game entry used as a template for the SilverOrbit App Store.",
+      "version": "1.0",
+      "author": "VeriBot",
+      "category": "arcade",
+      "featured": true,
+      "icon": "games/example-game/icon.png",
+      "banner": "games/example-game/banner.png",
+      "screenshots": [
+        "games/example-game/screenshots/1.png",
+        "games/example-game/screenshots/2.png"
+      ],
+      "apk": "games/example-game/builds/example-game-v1.0.apk"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+Create a simple Android app called "SilverOrbit App Store" by VeriBot.
+
+This app is a lightweight Play Store-like app that displays my games and allows users to download and install APKs directly.
+
+DATA SOURCE:
+The app must fetch a single file from this GitHub repository:
+https://raw.githubusercontent.com/VeriBotOfficial/SilverOrbit/main/catalog.json
+
+The catalog file contains everything the app needs: names, descriptions, icons, banners, screenshots, and APK links.
+
+CATALOG FORMAT:
+{
+  "storeName": "SilverOrbit App Store",
+  "creator": "VeriBot",
+  "apps": [
+    {
+      "id": "example-game",
+      "name": "Example Game",
+      "shortDescription": "A simple sample game.",
+      "description": "Full description here.",
+      "version": "1.0",
+      "author": "VeriBot",
+      "category": "arcade",
+      "featured": true,
+      "icon": "games/example-game/icon.png",
+      "banner": "games/example-game/banner.png",
+      "screenshots": [
+        "games/example-game/screenshots/1.png",
+        "games/example-game/screenshots/2.png"
+      ],
+      "apk": "games/example-game/builds/example-game-v1.0.apk"
+    }
+  ]
+}
+
+REPO RULES:
+- Keep the repository very easy to maintain.
+- Every game must live in its own folder under games/.
+- To add a game, copy the example folder and rename it.
+- Only edit one small file per game: games/<game-id>/game.json
+- The repo should include a small script that scans all game folders and regenerates catalog.json.
+
+REPO STRUCTURE:
+- catalog.json in the root
+- games/<game-id>/game.json
+- games/<game-id>/icon.png
+- games/<game-id>/banner.png
+- games/<game-id>/screenshots/
+- games/<game-id>/builds/<apk-file>.apk
+- tools/build_catalog.py
+
+APP REQUIREMENTS:
+- Fetch catalog.json on launch
+- Show apps in a clean grid/list UI
+- Display icon, name, short description, and featured label if present
+- Open a detail page on click
+- Show banner, screenshots, description, version, and author
+- Add a "Download & Install" button
+
+DOWNLOAD SYSTEM:
+- Use the APK URL from the catalog.json field directly
+- Download using Android DownloadManager
+- After download, start the APK install flow
+- Handle unknown-app install permission properly
+
+UI:
+- Simple, modern, clean
+- Dark mode
+- Smooth scrolling
+- Minimal Play Store-like design
+
+IMPORTANT:
+- Do not explain anything
+- Just build the full working app
+- No placeholders in the code logic
